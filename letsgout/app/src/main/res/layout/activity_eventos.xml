@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.avalente.letsgout.Atividades"
+    android:id="@+id/activity_eventos">
+
+
+
+    <include layout="@layout/content_eventos" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnAdicionaEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        android:onClick="criaEvento"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>

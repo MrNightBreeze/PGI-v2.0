@@ -1,0 +1,39 @@
+<resources>
+    <string name="title_activity_eventos">Lista de Eventos</string>
+    <string name="labelTitulo">Título</string>
+    <string name="labelDescricao">Descrição</string>
+    <string name="labelLocal">Local</string>
+    <string name="ok">Ok</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aviso">Aviso</string>
+    <string name="open">Abrir</string>
+    <string name="close">Fechar</string>
+    <string name="msgCampos">Campos inválidos ou em branco!</string>
+    <string name="title_activity_options_drawer">OptionsDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- strings do milton -->
+    <string name="app_name">Let\'sGOut</string>
+    <string name="bem_vindo">Bem vindo!</string>
+    <string name="facebook_app_id">2419283054962531</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <array name="categorias">
+        <item>Desporto</item>
+        <item>Entretenimento</item>
+        <item>Artes</item>
+        <item>Estudar</item>
+        <item>Restaurantes e Bares</item>
+    </array>
+    <string name="title_activity_pagina_evento">PaginaEvento</string>
+
+
+</resources>

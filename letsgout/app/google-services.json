@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1001035126133",
+    "firebase_url": "https://letsgout-485f4.firebaseio.com",
+    "project_id": "letsgout-485f4",
+    "storage_bucket": "letsgout-485f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001035126133:android:d2527bc6b13e01e3",
+        "android_client_info": {
+          "package_name": "com.avalente.letsgout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001035126133-gh31tnm5r6qmtesf19m3jrcpu5u74vh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avalente.letsgout",
+            "certificate_hash": "6877c3f43f524d01857d3b8344dacae42c9ffcee"
+          }
+        },
+        {
+          "client_id": "1001035126133-4ivepnmns6vv2sr7fv55v4u7vf0rl1iv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8NMjtQOG3aJUwlqxL5IZIK6d10UmwETY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001035126133-4ivepnmns6vv2sr7fv55v4u7vf0rl1iv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.avalente.letsgout.CriaEvento">
+
+    <TextView
+        android:id="@+id/txtLocal"
+        android:layout_width="0dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="8dp"
+        android:text="Local"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/edtDescricao"
+        app:layout_constraintStart_toStartOf="@+id/edtDescricao"
+        app:layout_constraintTop_toBottomOf="@+id/edtDescricao" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="0dp"
+        android:layout_height="29dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/labelTitulo"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtTitulo"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/txtTitulo"
+        app:layout_constraintStart_toStartOf="@+id/txtTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+    <EditText
+        android:id="@+id/edtDescricao"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/txtDescricao"
+        app:layout_constraintStart_toStartOf="@+id/txtDescricao"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescricao" />
+
+    <EditText
+        android:id="@+id/edtLocal"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/txtLocal"
+        app:layout_constraintStart_toStartOf="@+id/txtLocal"
+        app:layout_constraintTop_toBottomOf="@+id/txtLocal" />
+
+    <TextView
+        android:id="@+id/txtDescricao"
+        android:layout_width="0dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/labelDescricao"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/edtTitulo"
+        app:layout_constraintStart_toStartOf="@+id/edtTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/edtTitulo" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+    <Spinner
+        android:id="@+id/spinnerCategorias"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:entries="@array/categorias"
+        app:layout_constraintEnd_toEndOf="@+id/edtData"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="@+id/edtData"
+        app:layout_constraintTop_toBottomOf="@+id/edtData" />
+
+    <TextView
+        android:id="@+id/textData"
+        android:layout_width="0dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="8dp"
+        android:text="Data"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/edtLocal"
+        app:layout_constraintStart_toStartOf="@+id/edtLocal"
+        app:layout_constraintTop_toBottomOf="@+id/edtLocal" />
+
+    <EditText
+        android:id="@+id/edtData"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/textData"
+        app:layout_constraintStart_toStartOf="@+id/textData"
+        app:layout_constraintTop_toBottomOf="@+id/textData" />
+
+
+</android.support.constraint.ConstraintLayout>
